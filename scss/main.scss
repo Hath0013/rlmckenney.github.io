@@ -130,15 +130,15 @@ body {
 }
 
 .triangle-banner {
-  border-color: $purple transparent transparent transparent;
+  border-color: $purple transparent transparent;
 }
 
 .triangle-grey {
-  border-color: $dark-grey transparent transparent transparent;
+  border-color: $dark-grey transparent transparent;
 }
 
 .triangle-white {
-  border-color: $light-grey transparent transparent transparent;
+  border-color: $light-grey transparent transparent;
   margin-top: -1.5rem;
 }
 
@@ -358,6 +358,8 @@ input {
   font-size: .9rem;
   margin-bottom: .1rem;
   padding-bottom: .3rem;
+  margin: 0 auto;
+  max-width: 50%;
 }
 
 .btn-form,
@@ -397,7 +399,7 @@ input {
 }
 
 .publication-img {
-  max-width: 30%;
+  max-width: 40%;
   margin: 0 auto;
   padding-bottom: 1rem;
 }
@@ -407,8 +409,16 @@ input {
   padding-right: .5rem;
   padding-left: .5rem;
   margin: 0 auto;
-  padding-bottom: 10%;
   display: inline-block;
+}
+
+.element-h2 {
+  margin-top: 3rem;
+}
+
+.graphic h2 {
+  max-width: 75%;
+  margin: 0 auto;
 }
 
 .dark-grey-text {
@@ -443,6 +453,8 @@ input {
 @media only screen and (min-width: 25em) {
 
   .nav-wrap {
+    padding-top: 1rem;
+    padding-bottom: 0;
     li {
       padding-left: 2rem;
       padding-right: 2rem;
@@ -581,8 +593,6 @@ input {
   .motion-s {
     display: none;
   }
-
-
 
 }
 

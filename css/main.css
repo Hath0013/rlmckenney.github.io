@@ -5650,13 +5650,13 @@ body {
   z-index: 1; }
 
 .triangle-banner {
-  border-color: #ba76b1 transparent transparent transparent; }
+  border-color: #ba76b1 transparent transparent; }
 
 .triangle-grey {
-  border-color: #31353e transparent transparent transparent; }
+  border-color: #31353e transparent transparent; }
 
 .triangle-white {
-  border-color: #fefbf9 transparent transparent transparent;
+  border-color: #fefbf9 transparent transparent;
   margin-top: -1.5rem; }
 
 section {
@@ -5841,7 +5841,9 @@ input {
   color: #fefbf9;
   font-size: .9rem;
   margin-bottom: .1rem;
-  padding-bottom: .3rem; }
+  padding-bottom: .3rem;
+  margin: 0 auto;
+  max-width: 50%; }
 
 .btn-form,
 .btn-form:link,
@@ -5876,7 +5878,7 @@ input {
   margin-bottom: 1rem; }
 
 .publication-img {
-  max-width: 30%;
+  max-width: 40%;
   margin: 0 auto;
   padding-bottom: 1rem; }
 
@@ -5885,8 +5887,14 @@ input {
   padding-right: .5rem;
   padding-left: .5rem;
   margin: 0 auto;
-  padding-bottom: 10%;
   display: inline-block; }
+
+.element-h2 {
+  margin-top: 3rem; }
+
+.graphic h2 {
+  max-width: 75%;
+  margin: 0 auto; }
 
 .dark-grey-text {
   color: #31353e;
@@ -5913,11 +5921,14 @@ input {
     transition: .5s; }
 
 @media only screen and (min-width: 25em) {
-  .nav-wrap li {
-    padding-left: 2rem;
-    padding-right: 2rem; }
-  .nav-wrap a {
-    font-size: 1.1rem; }
+  .nav-wrap {
+    padding-top: 1rem;
+    padding-bottom: 0; }
+    .nav-wrap li {
+      padding-left: 2rem;
+      padding-right: 2rem; }
+    .nav-wrap a {
+      font-size: 1.1rem; }
   .circle {
     max-width: 30%; } }
 
