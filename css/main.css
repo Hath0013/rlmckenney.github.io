@@ -5835,14 +5835,13 @@ input {
 .form-field {
   margin: 0 auto;
   margin-bottom: 1rem;
-  margin-top: 1rem;
   display: block; }
 
 .light-grey-text {
   color: #fefbf9;
   font-size: .9rem;
   margin-bottom: .1rem;
-  padding-bottom: 1.5rem; }
+  padding-bottom: .3rem; }
 
 .btn-form,
 .btn-form:link,
@@ -5859,9 +5858,10 @@ input {
 .btn-form:hover,
 .btn-form:focus,
 .btn-form:active {
-  border: solid 3px #fefbf9;
+  border: solid 3px #a7a9ab;
   border-radius: 5px;
   color: #fefbf9;
+  background-color: #a7a9ab;
   transition: .5s;
   cursor: pointer; }
 
